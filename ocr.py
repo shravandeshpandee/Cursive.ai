@@ -8,7 +8,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 # Set credentials path
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\minor project\handwrittenocr-454518-31f573567cd2.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\minor project\your_project.json"
 
 # Initialize NLP tools
 tool = language_tool_python.LanguageTool("en-US")
